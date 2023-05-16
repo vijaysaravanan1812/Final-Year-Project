@@ -1,0 +1,125 @@
+html, body {
+  height: 100%;
+}
+.nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#b6b6e1;
+    color: #333333;
+  }
+  
+  form {
+    background-color: #fefefe;
+    color:#000000;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  .form_elements {
+    background-color: #faf5c4;
+    color:#000000;
+    padding: 10px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  .float {
+    float: left;
+    background-color: #100f02;
+    color:#000000;
+    padding: 10px 10px;
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  
+  h3 {
+     color: #ffffff;
+     text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  h1 {
+    color: #ffffff;
+    text-align: center;
+   font-size: 24px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+  
+  textarea{
+    width: 50%;
+    height: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #063e37;
+    color:#fff;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #01312c;
+  }
+  .outer_layout{
+    
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #060637;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    height: 100vh;
+
+
+  }
+    
