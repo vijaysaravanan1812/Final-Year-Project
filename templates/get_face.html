@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Resolution Enhancer</title>
+</head>
+<body>
+    
+    <div class="outer_layout">
+        <h1><bold>FACE COMPLETION AND SUPER RESOLUTION OF
+            OCCLUDED IMAGES WITH FACE FRONTALIZATION</bold></h1>
+          <div class="nav">
+              <ul>
+                <li><a href="/">Super resolution converter(image)</a></li>
+                <li><a href="/video">Video</a></li>
+                <li><a href="get_face">Unmask</a></li>
+                <li><a href="/turn_face">Frontal view conversion </a></li>
+              </ul>
+            </div>
+          
+        <form action = "/get_face_image" method = "POST" enctype="multipart/form-data">
+                
+            <div class="form_elements">
+                <label for="image-upload">Upload an image:</label>
+                <input type="file" id="image-upload" name="image-upload" required><br>
+              
+            </div>
+            <button type="submit">Submit</button>
+             
+        </form>
+        <div class="float">
+            <h1>Masked Face 64 * 64</h1>
+            <img width="256px" height="256px" src= "{{ masked_img}}" id="image" />
+        </div>
+        <div class="float">
+            <h1>Predicted Face 64 * 64</h1>
+            <img width="256px" height="256px" src= "{{low_img}}" id="image" />
+        </div>
+        <div class="float">
+            <h1>Enhanced Resolution 256 * 256</h1>
+            <img width="256px" height="256px" src= "{{high_img}}" id="image" />
+        </div>
+                        
+        
+
+    </div>
+
+</body>
+<script>
+    const image = document.getElementById('image');
+    function showImage(path) {
+      image.src = path;
+      image.style.display = 'block';
+    }
+  </script>
+  
+
+</html>
