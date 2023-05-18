@@ -52,9 +52,16 @@ To create a virtual environment in Miniconda using a `requirements.txt` file, yo
 Notebooks for training models
 
 DCGAN           : https://www.kaggle.com/code/akashtharuvijay/face-completion-and-super-resolution-of-occluded-i
+
 SRGAN           : https://www.kaggle.com/code/akashtharuvijay/low-resolution-to-high-resolution
+
 Pix2Pix GAN     : https://www.kaggle.com/code/akashtharuvijay/face-frontalization
-OverALLProject  :https://www.kaggle.com/code/akashtharuvijay/fyp-project
+
+OverALLProject  : https://www.kaggle.com/code/akashtharuvijay/fyp-project
+
+Documents :
+1. https://drive.google.com/drive/folders/1gDvi3h_9pDk-qF5lDSIIiFfMhOmv2qJ5?usp=share_link
+2. https://drive.google.com/drive/folders/1T3UC63mvqXjUFl9RRGqhwxUcQIwDMLbE?usp=share_link
 
 Output Screenshots 
 
