@@ -47,3 +47,20 @@ To create a virtual environment in Miniconda using a `requirements.txt` file, yo
     Remember to replace `/path/to/requirements.txt` with the actual path to your `requirements.txt` file.
 
     That's it! You have created a virtual environment in Miniconda and installed the packages specified in the `requirements.txt` file.
+
+Output Screenshots
+SRGAN 
+![image](https://github.com/vijaysaravanan1812/Final-Year-Project/assets/61357538/707c03ae-6e20-43d5-88cb-b128ba5eafcb)
+
+SRGAN integrated with DCGAN
+![image](https://github.com/vijaysaravanan1812/Final-Year-Project/assets/61357538/8178b1f4-e503-4f47-b38f-b6314b2b4da7)
+
+Pix2Pix GAN
+![image](https://github.com/vijaysaravanan1812/Final-Year-Project/assets/61357538/cc2979b5-8a4e-4e0d-867c-e1cf543aa91b)
+
+Face Extraction from survillence video
+![image](https://github.com/vijaysaravanan1812/Final-Year-Project/assets/61357538/e929bceb-7ae8-4959-986d-fe981f82cc75)
+
+
+
+
