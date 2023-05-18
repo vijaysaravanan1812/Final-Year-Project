@@ -48,7 +48,8 @@ To create a virtual environment in Miniconda using a `requirements.txt` file, yo
 
     That's it! You have created a virtual environment in Miniconda and installed the packages specified in the `requirements.txt` file.
 
-Output Screenshots
+Output Screenshots 
+
 SRGAN 
 ![image](https://github.com/vijaysaravanan1812/Final-Year-Project/assets/61357538/707c03ae-6e20-43d5-88cb-b128ba5eafcb)
 
