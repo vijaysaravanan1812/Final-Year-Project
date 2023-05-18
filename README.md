@@ -4,12 +4,12 @@ In video surveillance scenarios, face recognition accuracy is often affected by 
 
 Due to the increasing number of thefts recorded by CCTV cameras in public places, it is crucial to recognize faces in surveillance footage. To achieve this, we propose using a cascade classifier to extract frames from the video containing face images. These frames are then fed into an SRGAN to generate high-resolution images. Additionally, in cases where the surveillance camera captures a face in a side view, we propose using a conditional GAN to generate a frontal face view.
 
-Procedure to runand
+Procedure to run website
 
-1) Clone the repository
-2) Download the Pix2Pix GAN trained model from Google drive link and put it under Final-Project-Folder https://drive.google.com/drive/folders/1NvfVkzQEsORsEJhvDr3w_7qNI007jeM0?usp=share_link
+1. Clone the repository
+2. Download the Pix2Pix GAN trained model from Google drive link and put it under Final-Project-Folder https://drive.google.com/drive/folders/1NvfVkzQEsORsEJhvDr3w_7qNI007jeM0?usp=share_link
 To create a virtual environment in Miniconda using a `requirements.txt` file, you can follow these steps:
-3) create virtual environment
+3. create virtual environment
     1. First, make sure you have Miniconda installed on your system. If not, you can download and install it from the official Miniconda website              (https://docs.conda.io/en/latest/miniconda.html) based on your operating system.
 
     2. Open a terminal or command prompt and execute the following command to create a new virtual environment:
@@ -48,6 +48,12 @@ To create a virtual environment in Miniconda using a `requirements.txt` file, yo
     Remember to replace `/path/to/requirements.txt` with the actual path to your `requirements.txt` file.
 
     That's it! You have created a virtual environment in Miniconda and installed the packages specified in the `requirements.txt` file.
+
+4. Navigate the folder which have web.py and run 
+     ```shell
+      python web.py
+     ```
+
 
 Notebooks for training models
 
