@@ -49,6 +49,13 @@ To create a virtual environment in Miniconda using a `requirements.txt` file, yo
 
     That's it! You have created a virtual environment in Miniconda and installed the packages specified in the `requirements.txt` file.
 
+Notebooks for training models
+
+DCGAN           : https://www.kaggle.com/code/akashtharuvijay/face-completion-and-super-resolution-of-occluded-i
+SRGAN           : https://www.kaggle.com/code/akashtharuvijay/low-resolution-to-high-resolution
+Pix2Pix GAN     : https://www.kaggle.com/code/akashtharuvijay/face-frontalization
+OverALLProject  :https://www.kaggle.com/code/akashtharuvijay/fyp-project
+
 Output Screenshots 
 
 SRGAN 
