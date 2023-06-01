@@ -83,6 +83,10 @@ Pix2Pix GAN
 Face Extraction from survillence video
 ![image](https://github.com/vijaysaravanan1812/Final-Year-Project/assets/61357538/e929bceb-7ae8-4959-986d-fe981f82cc75)
 
+Architecture
+
+![New Architecture 2](https://github.com/vijaysaravanan1812/Final-Year-Project/assets/61357538/652c6e59-3515-431c-b3b1-453c47af4a89)
+
 CONCLUSION AND FUTURE WORK
 
 The development of deep learning models for image processing has
