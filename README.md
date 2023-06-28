@@ -85,7 +85,8 @@ Face Extraction from survillence video
 
 Architecture
 
-![New Architecture 2](https://github.com/vijaysaravanan1812/Final-Year-Project/assets/61357538/652c6e59-3515-431c-b3b1-453c47af4a89)
+![image](https://github.com/vijaysaravanan1812/Final-Year-Project/assets/61357538/63c6a471-f64d-408e-b6cd-d481c90d9abb)
+
 
 CONCLUSION AND FUTURE WORK
 
